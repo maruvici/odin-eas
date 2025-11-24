@@ -25,9 +25,9 @@ body button {
     border: 5px solid black;
     display: flex;
     flex-wrap: wrap;
-    height: 50vw;
+    height: 80vw;
     margin-top: 20px;
-    width: 50vw;
+    width: 80vw;
 }
 
 .flex-container .square {

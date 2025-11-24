@@ -5,7 +5,7 @@ function createGrid(size = 16) {
   const body = document.querySelector("body");
   grid.classList.add("flex-container");
   body.appendChild(grid);
-  for (let i = 0; i < size; i++) {
+  for (let i = 0; i < size * size; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
     grid.appendChild(square);
