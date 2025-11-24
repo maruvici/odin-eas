@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+body button {
+    padding: 2px 10px;
+}
+
+.flex-container {
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vw;
+    margin-top: 20px;
+    width: 50vw;
+}
+
+.flex-container .square {
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
